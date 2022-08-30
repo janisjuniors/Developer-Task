@@ -28,7 +28,7 @@
 <p>Open terminal and go into the project directory.</p>
 <p>Create a copy of <code>.env.example</code> and name it <code>.env</code></p>
 <p>To be able to check confirmation emails - go to <a href="https://mailtrap.io/">Mailtrap</a> and register. 
-<br>Then in "My Inbox" choose Laravel 7+ integration. 
+<br>Then in "My Inbox" SMTP settings choose Laravel 7+ integration. 
 <br>Replace the old Mail variables in your .env file with given values.</p> 
 <p>Run below command to download vendor folder:</p>
 <pre>
