@@ -27,8 +27,6 @@
 <p>Open terminal and go into the project directory.</p>
 <p>Run command below to create <code>.env</code> file:</p>
 <pre>cp .env.example .env</pre>
-<p>Run command below to generate app key:</p>
-<pre>php artisan key:generate</pre>
 <p>To be able to check confirmation emails - go to <a href="https://mailtrap.io/">Mailtrap</a> and register. 
 <br>Then in "My Inbox" choose Laravel 7+ integration. 
 <br>Replace the old Mail variables in your .env file with given values.</p> 
@@ -41,6 +39,9 @@ docker run --rm \
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
 </pre>
+
+<p>Run command below to generate app key:</p>
+<pre>php artisan key:generate</pre>
 
 <p>Run these commands to create, start and setup containers. 
 <br>Run them one by one.
