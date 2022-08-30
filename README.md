@@ -25,8 +25,7 @@
 <p>Clone or download the repository.</p>
 <p>Install <a href="https://docs.docker.com/engine/install/">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a></p>
 <p>Open terminal and go into the project directory.</p>
-<p>Run command below to create <code>.env</code> file:</p>
-<pre>cp .env.example .env</pre>
+<p>Create a copy of <code>.env.example</code> and name it <code>.env</code></p>
 <p>To be able to check confirmation emails - go to <a href="https://mailtrap.io/">Mailtrap</a> and register. 
 <br>Then in "My Inbox" choose Laravel 7+ integration. 
 <br>Replace the old Mail variables in your .env file with given values.</p> 
