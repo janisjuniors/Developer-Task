@@ -1,3 +1,4 @@
+<h1>E-commerce Application</h1>
 <p>Technologies used:</p>
 <ul>
     <li>PHP 8</li>
@@ -39,14 +40,12 @@ docker run --rm \
     composer install --ignore-platform-reqs
 </pre>
 
-<p>Run command below to generate app key:</p>
-<pre>php artisan key:generate</pre>
-
 <p>Run these commands to create, start and setup containers. 
 <br>Run them one by one.
 </p>
 <pre>
 ./vendor/bin/sail up -d
+./vendor/bin/sail php artisan key:generate
 ./vendor/bin/sail php artisan migrate
 ./vendor/bin/sail php artisan db:seed --class=DatabaseSeeder
 ./vendor/bin/sail npm install && npm run dev
