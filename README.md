@@ -24,11 +24,14 @@
 
 <p>Clone or download the repository.</p>
 <p>Install <a href="https://docs.docker.com/engine/install/">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a></p>
-<p>Create a copy of <code>.env.example</code> file and rename it to <code>.env</code></p>
+<p>Open terminal and go into the project directory.</p>
+<p>Run command below to create <code>.env</code> file:</p>
+<pre>cp .env.example .env</pre>
+<p>Run command below to generate app key:</p>
+<pre>php artisan key:generate</pre>
 <p>To be able to check confirmation emails - go to <a href="https://mailtrap.io/">Mailtrap</a> and register. 
 <br>Then in "My Inbox" choose Laravel 7+ integration. 
 <br>Replace the old Mail variables in your .env file with given values.</p> 
-<p>Open terminal and go into the project directory.</p>
 <p>Run below command to download vendor folder:</p>
 <pre>
 docker run --rm \
@@ -44,7 +47,6 @@ docker run --rm \
 </p>
 <pre>
 ./vendor/bin/sail up -d
-./vendor/bin/sail php artisan key:generate
 ./vendor/bin/sail php artisan migrate
 ./vendor/bin/sail php artisan db:seed --class=DatabaseSeeder
 ./vendor/bin/sail npm install && npm run dev
