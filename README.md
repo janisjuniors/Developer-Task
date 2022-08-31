@@ -1,4 +1,5 @@
 <h1>E-commerce Application</h1>
+<p>Four Laravel API endpoints, email service, caching mechanism, two frontend pages - user list, user details.</p>
 <p>Technologies used:</p>
 <ul>
     <li>PHP 8</li>
@@ -9,10 +10,10 @@
     <li>Docker v20.10</li>
 </ul>
 <br>
-<p>Front-End User list view.</p>
+<p>Front-End user list view.</p>
 
 ![Screenshot from 2022-08-30 18-29-18](https://user-images.githubusercontent.com/104723218/187481912-a95cb80f-ca2c-4a67-a8af-b11d4901a63e.png)
-<p>Front-End User detail view.</p>
+<p>Front-End user detail view.</p>
 
 ![Screenshot from 2022-08-30 18-29-10](https://user-images.githubusercontent.com/104723218/187481985-3cf55b33-f5b9-4476-857b-33e090350b1a.png)
 
