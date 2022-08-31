@@ -53,7 +53,7 @@ docker run --rm \
 
 <p>After running all the above commands open <a href="http://127.0.0.1:8000/">localhost</a></p>
 
-<p>For email to be sent to Mailtrap, in a new terminal you need to run:</p> 
+<p>For email to be sent to Mailtrap, in a new terminal in the same directory you need to run:</p> 
 <pre>./vendor/bin/sail php artisan queue:work</pre>
 
 
